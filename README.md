@@ -36,7 +36,7 @@ Well, it's really simple. We use discord.js to start a Discord Client using the 
 This Client will be listening for any message that is sent to our Bot. When a message is received we send the content of it to the Watson Assistant API, where our Assistant will analyse it and respond to the Application with the correct answer, then this answer goes to our Bot that send a message to the user.
 
 
-#Teaching Commands:
+# Teaching Commands:
 
 The way they work is this:
   -Watson uses its fantastic Natural Language Processing(NLP) to find out if the user is wanting to teach something. Then Watson respond to our application a request with a certain "Intent" (Wich can be "addEntity", for example) and a message explainnig that if the user wants to teach XXX, he needs to send a message with a specific format(Explained in the message). So, the user can send it to our Bot, with the user's input("teachings") on it.
@@ -44,7 +44,7 @@ The way they work is this:
   -This way, the user is inserting data on our Skill by himself. We don't need to collect all the data that our Bot could not respond and insert it manually.
 
 
-#Closure
+# Closure
 
 There's a long way to go before I can be really proud of my Application. I am not even used to Javascript yet...
 But it seems pretty promising to me, and I am happy to share this small project with whoever is intersted.
