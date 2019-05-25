@@ -1,0 +1,1168 @@
+{
+  "name": "Default Skill",
+  "intents": [
+    {
+      "intent": "user_name",
+      "examples": [
+        {
+          "text": "Sabe quem sou eu?"
+        },
+        {
+          "text": "Você sabe meu nome?"
+        },
+        {
+          "text": "Quem sou eu?"
+        },
+        {
+          "text": "Qual meu nome?"
+        },
+        {
+          "text": "Você me conhece?"
+        },
+        {
+          "text": "quem sou?"
+        }
+      ],
+      "description": "Usuário quer saber o próprio nome"
+    },
+    {
+      "intent": "list_dialogs",
+      "examples": [
+        {
+          "text": "queria saber quais dialogos vc sabe"
+        },
+        {
+          "text": "Posso ver os dialogos que vc conhece"
+        },
+        {
+          "text": "quero ver os dialog nodes"
+        },
+        {
+          "text": "Pode me mostrar os dialog nodes?"
+        },
+        {
+          "text": "posso saber quais nodes estão configurados?"
+        }
+      ],
+      "description": "Usuário quer ver a listagem dos dialog Nodes configurados"
+    },
+    {
+      "intent": "add_example",
+      "examples": [
+        {
+          "text": "Quero adicionar exemplos em um intent"
+        },
+        {
+          "text": "quero que você aprenda a detectar um intent"
+        },
+        {
+          "text": "Vou te dar mais exemplos para uma intenção"
+        },
+        {
+          "text": "Preciso que você aprenda um novo exemplo para uma intenção"
+        },
+        {
+          "text": "Vou te passar novos exemplos para um intent"
+        },
+        {
+          "text": "Quero te ensinar como reconhecer um intent"
+        }
+      ],
+      "description": "Usuário quer criar um novo exemplo para uma intenção"
+    },
+    {
+      "intent": "add_dialog",
+      "examples": [
+        {
+          "text": "Preciso te ensinar a responder uma coisa"
+        },
+        {
+          "text": "Quero adicionar um novo dialog node"
+        },
+        {
+          "text": "vou te ensinar um novo dialog"
+        },
+        {
+          "text": "Quero que você aprenda a responder a um intent"
+        },
+        {
+          "text": "Vou te ensinar como responder a uma intenção"
+        },
+        {
+          "text": "Vou te ensinar a resposta para uma intenção"
+        },
+        {
+          "text": "preciso adicionar um nó de dialogo"
+        }
+      ],
+      "description": "Usuário quer criar um novo diálogo"
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "Me fale sobre você"
+        },
+        {
+          "text": "Como posso te alimentar com dados?"
+        },
+        {
+          "text": "Como você funciona?"
+        },
+        {
+          "text": "como posso te ensinar?"
+        },
+        {
+          "text": "Como te ensino algo?"
+        }
+      ],
+      "description": "Usuário quer saber sobre o funcionamento do chatbot"
+    },
+    {
+      "intent": "delete_intent",
+      "examples": [
+        {
+          "text": "Como faço pra vc esquecer uma intenção?"
+        },
+        {
+          "text": "Posso apagar uma intenção"
+        },
+        {
+          "text": "Posso excluir um intent?"
+        },
+        {
+          "text": "Quero deletar um intent"
+        },
+        {
+          "text": "queria que você esquecesse uma intenção"
+        }
+      ],
+      "description": "Usuário quer deletar uma intenção"
+    },
+    {
+      "intent": "ensinar_generic",
+      "examples": [
+        {
+          "text": "preciso te ensinar uma coisa"
+        },
+        {
+          "text": "Vou te ensinar"
+        },
+        {
+          "text": "vou ensinar um parada"
+        },
+        {
+          "text": "quero ensinar um bagulho"
+        },
+        {
+          "text": "Quero te ensinar uma coisa"
+        }
+      ],
+      "description": "Usuário diz que quer ensinar, mas não define o que"
+    },
+    {
+      "intent": "como_vai",
+      "examples": [
+        {
+          "text": "Você está bem?"
+        },
+        {
+          "text": "td bem?"
+        },
+        {
+          "text": "Tudo bem?"
+        },
+        {
+          "text": "Como vai?"
+        },
+        {
+          "text": "Como vai voce?"
+        }
+      ],
+      "description": "Usuário pergunta estado do bot"
+    },
+    {
+      "intent": "risadas",
+      "examples": [
+        {
+          "text": "heheheh"
+        },
+        {
+          "text": "rsrsrs"
+        },
+        {
+          "text": "rsrs"
+        },
+        {
+          "text": "kakakka"
+        },
+        {
+          "text": "kkkkk"
+        },
+        {
+          "text": "kk"
+        },
+        {
+          "text": "kkk"
+        },
+        {
+          "text": "shahsha"
+        },
+        {
+          "text": "ashash"
+        },
+        {
+          "text": "hsahsahs"
+        },
+        {
+          "text": "ahahaha"
+        },
+        {
+          "text": "ahah"
+        },
+        {
+          "text": "hahahaha"
+        },
+        {
+          "text": "hahaha"
+        },
+        {
+          "text": "haha"
+        },
+        {
+          "text": "rs"
+        }
+      ],
+      "description": "usuário não precisa de nada"
+    },
+    {
+      "intent": "update_example",
+      "examples": [
+        {
+          "text": "tenho que corrigir um exemplo errado em um intent"
+        },
+        {
+          "text": "Posso corrigir um exemplo de um intent"
+        },
+        {
+          "text": "preciso atualizar um exemplo de uma intenção"
+        },
+        {
+          "text": "Quero atualizar um exemplo de um intent"
+        }
+      ],
+      "description": "Usuário quer atualizar um exemplo de uma intenção"
+    },
+    {
+      "intent": "saber_data",
+      "examples": [
+        {
+          "text": "Qual a data"
+        },
+        {
+          "text": "Que horas são?"
+        },
+        {
+          "text": "qual a data de hoje?"
+        },
+        {
+          "text": "Que dia é hoje?"
+        }
+      ],
+      "description": "Usuário pergunta a data"
+    },
+    {
+      "intent": "add_entity",
+      "examples": [
+        {
+          "text": "preciso te ensinar uma entity"
+        },
+        {
+          "text": "Posso te ensinar uma Entidade"
+        },
+        {
+          "text": "Preciso que você aprenda uma entidade"
+        },
+        {
+          "text": "Quero te ensinar uma entidade"
+        },
+        {
+          "text": "Quero adicionar uma entity"
+        }
+      ],
+      "description": "Usuário quer criar uma nova entidade"
+    },
+    {
+      "intent": "add_intent",
+      "examples": [
+        {
+          "text": "quero adicionar uma intenção?"
+        },
+        {
+          "text": "queria te ensinar uma intenção nova"
+        },
+        {
+          "text": "posso adicionar uma intenção?"
+        },
+        {
+          "text": "Como posso te ensinar uma intenção nova?"
+        },
+        {
+          "text": "prepare-se para aprender uma intenção"
+        },
+        {
+          "text": "posso te ensinar um intent"
+        },
+        {
+          "text": "Vou te ensinar uma intenção"
+        },
+        {
+          "text": "Como faço para adicionar um intent?"
+        }
+      ],
+      "description": "Usuário quer criar uma nova intenção"
+    },
+    {
+      "intent": "update_intent",
+      "examples": [
+        {
+          "text": "Quero modificar um intent"
+        },
+        {
+          "text": "posso alterar uma intenção"
+        },
+        {
+          "text": "Posso refazer um intent"
+        },
+        {
+          "text": "Queria mudar uma intenção"
+        },
+        {
+          "text": "Como faço para modificar uma intenção"
+        },
+        {
+          "text": "Quero atualizar um intent"
+        }
+      ],
+      "description": "Usuário quer atualizar uma intenção"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Vou sair agora. Tchau"
+        },
+        {
+          "text": "Tudo bem, eu tenho tudo o que eu precisava"
+        },
+        {
+          "text": "Ainda não terminou?"
+        },
+        {
+          "text": "Com licença, tenho que ir agora"
+        },
+        {
+          "text": "Desculpe ter ocupado tanto do seu tempo. Eu sei que estamos os dois ocupados e acho que tenho que dizer tchau por ora.."
+        },
+        {
+          "text": "Estou cansado de digitar agora. Obrigado e adeus"
+        },
+        {
+          "text": "Estou indo embora."
+        },
+        {
+          "text": "Eu estou indo agora. Tenha um bom dia. Tchau"
+        },
+        {
+          "text": "Eu preciso correr porque acabei de notar que estou atrasado para o meu próximo compromisso"
+        },
+        {
+          "text": "Falo contigo depois. Tchau"
+        },
+        {
+          "text": "Me tire daqui."
+        },
+        {
+          "text": "Muito obrigado pelo seu tempo. Me desculpe, mas eu tenho que ir. Até logo!"
+        },
+        {
+          "text": "Obrigada, tchau!"
+        },
+        {
+          "text": "Obrigado pela sua ajuda, mas ainda estou confuso…tchau"
+        },
+        {
+          "text": "Obrigado por responder todas as minhas perguntas. Tchau"
+        },
+        {
+          "text": "Ok, isso é tudo que eu preciso para agora."
+        },
+        {
+          "text": "pare esta sessão agora..Tchau"
+        },
+        {
+          "text": "Quero encerrar a conversa, obrigado."
+        },
+        {
+          "text": "Te desejo o melhor de sorte..Tchau"
+        },
+        {
+          "text": "Vamos dar uma pausa e tentar novamente mais tarde..Tchau"
+        },
+        {
+          "text": "Você foi de pouca ajuda, por isso não quero falar com você mais, tchau"
+        },
+        {
+          "text": "valeu"
+        },
+        {
+          "text": "Vejo você mais tarde."
+        },
+        {
+          "text": "Volto mais tarde."
+        }
+      ],
+      "description": "Termine a conversa."
+    },
+    {
+      "intent": "delete_dialog",
+      "examples": [
+        {
+          "text": "preciso excluir um dialogo"
+        },
+        {
+          "text": "Gostaria de remover um dialogo"
+        },
+        {
+          "text": "Quero apagar um dialog"
+        },
+        {
+          "text": "posso deletar um dialog node"
+        }
+      ],
+      "description": "Usuário quer deletar um diálogo"
+    },
+    {
+      "intent": "update_dialog",
+      "examples": [
+        {
+          "text": "Preciso atualizar um dialogo"
+        },
+        {
+          "text": "Quero atualizar um dialogo"
+        },
+        {
+          "text": "preciso mudar as respostas que te ensinei"
+        },
+        {
+          "text": "tenho que mudar as respostas"
+        }
+      ],
+      "description": "Usuário quer atualizar respostas de um dialogo"
+    },
+    {
+      "intent": "saudacao",
+      "examples": [
+        {
+          "text": "Opa"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "boa tarde"
+        },
+        {
+          "text": "eae"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "boa noite"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "eai"
+        },
+        {
+          "text": "Fala ai"
+        },
+        {
+          "text": "koe"
+        }
+      ],
+      "description": "Usuário faz saudação"
+    },
+    {
+      "intent": "list_intent",
+      "examples": [
+        {
+          "text": "pode me mostrar quais intenções vc conhece?"
+        },
+        {
+          "text": "Quais intents você conhece?"
+        },
+        {
+          "text": "Que intenções vc sabe?"
+        },
+        {
+          "text": "posso ver a lista de intents"
+        },
+        {
+          "text": "Me mostra a lista de intenções"
+        }
+      ],
+      "description": "Usuário quer ver lista de intenções conhecidas"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "tipos_configuracao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Diálogo",
+          "synonyms": [
+            "dialog",
+            "dialogs",
+            "dialogos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Intenção",
+          "synonyms": [
+            "Intents",
+            "intent",
+            "intenções",
+            "intencao",
+            "intencoes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Entidade",
+          "synonyms": [
+            "entity",
+            "entities",
+            "entidades",
+            "entidad"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "status_user",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "mal",
+          "synonyms": [
+            "morto",
+            "exausto",
+            "cansado",
+            "deprimido",
+            "chateado",
+            "triste",
+            "infeliz",
+            "não muito bem",
+            "mau"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bem",
+          "synonyms": [
+            "boa",
+            "tranquilo",
+            "ok",
+            "bom",
+            "feliz",
+            "Tudo certo, cara"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "indiferente",
+          "synonyms": [
+            "mais ou menos",
+            "indo",
+            "na mesma",
+            "nada demais",
+            "normal"
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "title": "response_2_1553179887582",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Até a próxima!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1553179812816",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_2_1553179887582",
+      "previous_sibling": "response_8_1553179877590"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_8_1553179877590",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tchau Tchau!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1553179812816",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_8_1553179877590"
+    },
+    {
+      "type": "standard",
+      "title": "Entrada de status do usuário",
+      "output": {},
+      "parent": "Bem-vindo",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@status_user",
+      "dialog_node": "node_7_1553176948982"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_2_1553179704756",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ótimo! Se você quer me ensinar novas formas de entender uma intenção, é só me enviar isso AQUI OH!:  !AddExample \"intenção\"->\"novoExemplo\" . Não esqueça de retirar as aspas!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1553179517999",
+      "conditions": "#add_example",
+      "dialog_node": "response_2_1553179704756",
+      "previous_sibling": "response_7_1553179696035"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_1_1553179739007",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para me ensinar mais diálogos diferentes você só precisa me enviar o seguinte: !AddDialog \"NomeIdentificadorDoDialogo\"->\"intenção_a_ser_reconhecida\"->\"resposta\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1553179517999",
+      "conditions": "#add_dialog",
+      "dialog_node": "response_1_1553179739007",
+      "previous_sibling": "response_3_1553179729098"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_4_1553179688333",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aqui vai uma listagem com todas as intenções que eu conheço!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1553179517999",
+      "conditions": "#list_intent",
+      "dialog_node": "response_4_1553179688333",
+      "previous_sibling": "response_3_1553179669435"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_5_1553282625436",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aqui vai uma listagem com todos os Dialog Nodes que eu tenho configurados!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1553179517999",
+      "conditions": "#list_dialogs",
+      "dialog_node": "response_5_1553282625436",
+      "previous_sibling": "response_6_1553179749466"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_1_1553179718684",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pra atualizar um exemplo que esteja incorreto ou ultrapassado, me envie o seguinte comando:  !UpdateExample \"intenção\"->\"exemploVelho\"/\"exemploNovo\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1553179517999",
+      "conditions": "#update_example",
+      "dialog_node": "response_1_1553179718684",
+      "previous_sibling": "response_2_1553179704756"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_7_1553179696035",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se você quiser apagar minhas memórias sobre uma intenção, basta que você me envie esse comando aqui:  !DeleteIntent \"intenção\". Lembre-se de retirar as aspas!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1553179517999",
+      "conditions": "#delete_intent",
+      "dialog_node": "response_7_1553179696035",
+      "previous_sibling": "response_4_1553179688333"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1553179729098",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para que eu aprenda sobre uma nova entidade, você pode me mandar uma mensagem nesse formato:  !AddEntity \"Entidade\"->\"Valor1\"/\"Valor2\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1553179517999",
+      "conditions": "#add_entity",
+      "dialog_node": "response_3_1553179729098",
+      "previous_sibling": "response_1_1553179718684"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_2_1553539857299",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Show! Para me ensinar alguma coisa, tente dizer o que vc quer me ensinar também. Assim eu me preparo para aprender! Por exemplo: \"Quero te ensinar uma intenção\" ou \"Vou te ensinar a responder uma coisa\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1553179517999",
+      "conditions": "#ensinar_generic",
+      "dialog_node": "response_2_1553539857299",
+      "previous_sibling": "response_1_1553623084400"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_6_1553179749466",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para excluir da minha memória como responder um determinado assunto, pode me mandar o seguinte comando:  !DeleteDialog \"nomeIdentificadorDoDialogo\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1553179517999",
+      "conditions": "#delete_dialog",
+      "dialog_node": "response_6_1553179749466",
+      "previous_sibling": "response_1_1553179739007"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1553179669435",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para atualizar uma intenção você precisa fazer o seguinte comando:  !UpdateIntent \"intenção\"->\"novoExemplo1\"/\"novoExemplo2\" Lembre-se de retirar as aspas!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1553179517999",
+      "conditions": "#update_intent",
+      "dialog_node": "response_3_1553179669435",
+      "previous_sibling": "response_6_1553179542652"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_1_1553623084400",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para atualizar um dialogo que você tenha me ensinado errado, é só me mandar esse comando aqui, sem as aspas:  !UpdateDialog \"nomeIdentificadorDoDialogo\"->\"novaResposta1\"/\"novaResposta2\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1553179517999",
+      "conditions": "#update_dialog",
+      "dialog_node": "response_1_1553623084400",
+      "previous_sibling": "response_5_1553282625436"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_6_1553179542652",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! Para me ensinar uma nova intenção você precisa mandar um comando da seguinte forma:  !AddIntent \"intenção\"->\"exemplo1\"/\"exemplo2\" . Lembre-se de retirar as aspas!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1553179517999",
+      "conditions": "#add_intent",
+      "dialog_node": "response_6_1553179542652"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1553177103045",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah que pena :(  Espero poder ajudar"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1553176948982",
+      "conditions": "@status_user:mal",
+      "dialog_node": "response_3_1553177103045",
+      "previous_sibling": "response_3_1553177051343"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_8_1553177143874",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo. O que posso fazer por você?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1553176948982",
+      "conditions": "@status_user:indiferente",
+      "dialog_node": "response_8_1553177143874",
+      "previous_sibling": "response_3_1553177103045"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1553177051343",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que bom :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1553176948982",
+      "conditions": "@status_user:bem",
+      "dialog_node": "response_3_1553177051343"
+    },
+    {
+      "type": "standard",
+      "title": "Nome usuário",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#user_name",
+      "dialog_node": "node_4_1553540048522",
+      "previous_sibling": "node_2_1553539619052"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo (primeira interação)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              },
+              {
+                "text": "Eai! Tudo certo? O que posso fazer por você?"
+              },
+              {
+                "text": "Como vai, humano? Do que precisa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome ||  #saudacao",
+      "dialog_node": "Bem-vindo",
+      "previous_sibling": "node_2_1553542148691"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_3_1553527911812"
+    },
+    {
+      "type": "standard",
+      "title": "Não responder",
+      "output": {},
+      "conditions": "#risadas",
+      "dialog_node": "node_1_1553180037597",
+      "previous_sibling": "node_3_1553179812816"
+    },
+    {
+      "type": "standard",
+      "title": "Help",
+      "output": {},
+      "conditions": "#help",
+      "dialog_node": "node_3_1553527911812",
+      "previous_sibling": "node_1_1553180037597"
+    },
+    {
+      "type": "standard",
+      "title": "Preparar para configurar",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#add_dialog ||                          #add_entity ||                        #add_example ||                      #add_intent ||                    #delete_dialog ||                  #delete_intent ||               #list_intent ||           #update_example ||        #update_intent ||     #list_dialogs &&   #ensinar_generic || #update_dialog",
+      "dialog_node": "node_7_1553179517999",
+      "previous_sibling": "node_4_1553540048522"
+    },
+    {
+      "type": "standard",
+      "title": "Saber data",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Essa é a data e hora desse exato momento: <? now() ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#saber_data",
+      "dialog_node": "node_2_1553539619052",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Adeus",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tchau Tchau!"
+              },
+              {
+                "text": "Até a próxima!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_3_1553179812816",
+      "previous_sibling": "node_7_1553179517999"
+    },
+    {
+      "type": "standard",
+      "title": "Como vai",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não tenho sentimentos, sou só um Chatbot!"
+              },
+              {
+                "text": "Sentimentos são incompreensíveis pra mim."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#como_vai",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1553542148691"
+    }
+  ],
+  "workspace_id": "4883e0eb-d1e2-444f-8ae6-b2844eb172ce",
+  "counterexamples": [
+    {
+      "text": "Você conhece o Dunga?"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
