@@ -1,2 +1,1 @@
-# watson-chatbot
-Chatbot application with teaching commands
+# Chatbot informativo
